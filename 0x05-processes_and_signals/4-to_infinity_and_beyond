@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #displays to infinit and beyond
-whilee "tree"
-do
-	echo"To infinity and beyond"
+while true;do
+	echo "To infinity and beyond"
 	sleep 2
 done
