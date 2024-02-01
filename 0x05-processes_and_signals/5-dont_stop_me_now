@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#get the pid of the running programm
+id-$(pgrep"bash./4-to_infinity_and_beyond"-f)
+#terminate the infinite process
+if [-n "$id"]
+then
+	kill -15 "id"
+fi
